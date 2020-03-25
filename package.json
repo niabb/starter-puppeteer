@@ -1,0 +1,29 @@
+{
+  "name": "starter-puppeteer",
+  "version": "1.0.0",
+  "description": "Template to start a project based on Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niabb/starter-puppeteer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niabb/starter-puppeteer/issues"
+  },
+  "homepage": "https://github.com/niabb/starter-puppeteer#readme",
+  "dependencies": {
+    "puppeteer": "2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-you-dont-need-lodash-underscore": "6.10.0"
+  }
+}
