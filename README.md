@@ -13,7 +13,6 @@ cd newRepo
 git remote set-url origin https://github.com/userName/newRepo
 git remote add upstream https://github.com/niabb/starter-puppeteer
 git push origin master
-git push --all
 ```
 
 Keep up to date:
