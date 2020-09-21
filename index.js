@@ -11,7 +11,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
   await page.setViewport({ width: 0, height: 0 });
   await page.goto('http://google.fr');
-  await page.waitFor(5000);
+  await page.waitForTimeout(5000);
 
   await browser.close();
 })();
